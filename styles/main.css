@@ -155,12 +155,6 @@ body {
     padding-top: 70px;
 }
 
-.pets-block {
-    /*align-items: center;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-}
-
 .pets-block h3 {
     font-family: 'Georgia', sans-serif;
     font-weight: 400;
@@ -277,4 +271,141 @@ button.get-to-know{
     color: #292929;
 
     margin-bottom: 100px;
+}
+
+/* =====HELP===== */
+.help-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 80px;
+}
+
+.help__header h3 {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+    padding-bottom: 60px;
+}
+
+.help-icons-block {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.help__icons {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 3.3rem 7.5rem;
+    max-width: 1030px;
+    justify-content: center;
+
+    padding-bottom: 100px;
+}
+
+.help-icons-block p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+    padding-top: 30px;
+}
+
+/* =====DONATION===== */
+.donation {
+    background: #F6F6F6;
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.donation-block img {
+
+}
+
+.donation-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 31px;
+    padding-top: 81px;
+}
+
+.donation-info-block {
+    align-self: flex-start;
+    max-width: 380px;
+}
+
+.card-pick {
+    display: flex;
+    background: #F1CDB3;
+    border-radius: 9px;
+    padding: 10px 15px;
+}
+
+.card-pick img {
+    padding: 0 15px 0 0 ;
+
+}
+
+.donation-info-block h1 {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+    padding-bottom: 20px;
+}
+
+.donation-info-block h6 {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+    padding-bottom: 20px;
+}
+
+.donation-info-block p {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+
+
+}
+
+.card-pick p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.subtitle {
+    padding-top: 20px;
 }
