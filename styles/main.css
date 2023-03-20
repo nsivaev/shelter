@@ -12,7 +12,7 @@ body {
 
 /* ======HEADER====== */
 .header {
-    background: url("../assets/background/start-screen-background.jpg");
+    background: url("../assets/backgrounds/start-screen-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 60px;
@@ -325,8 +325,7 @@ button.get-to-know{
 /* =====DONATION===== */
 .donation {
     background: #F6F6F6;
-    padding-top: 91px;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
 }
 
 .donation-block img {
@@ -353,14 +352,29 @@ button.get-to-know{
 }
 
 .card-pick {
+    padding: 1px 15px;
+    max-width: 349px;
+    height: 43px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f1cdb3;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    background: #F1CDB3;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: "Georgia", sans-serif;
+    line-height: 115%;
+    letter-spacing: 0.06em;
     border-radius: 9px;
-    padding: 10px 15px;
+    margin-bottom: 21px;
+    color: #545454;
+    text-decoration: none;
 }
 
 .card-pick img {
-    padding: 0 15px 0 0 ;
 
 }
 
@@ -388,13 +402,10 @@ button.get-to-know{
 
 .donation-info-block p {
     font-family: 'Arial', sans-serif;
-    font-style: italic;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #B2B2B2;
-
-
 }
 
 .card-pick p {
@@ -407,5 +418,90 @@ button.get-to-know{
 }
 
 .subtitle {
-    padding-top: 20px;
+    font-style: italic;
+}
+
+/* =====FOOTER===== */
+footer {
+    background: url("../assets/backgrounds/start-screen-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+}
+
+.footer-block h1 {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-block p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.contacts {
+    padding-top: 17px;
+    max-width: 279px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    gap: 39px;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+}
+
+.contacts a img {
+    padding-right: 20px;
+}
+
+.address {
+    padding-top: 17px;
+    max-width: 279px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    gap: 34px;
+}
+
+.address a {
+    display: flex;
+    align-items: center;
+}
+
+.address a img {
+    padding-right: 20px;
 }
