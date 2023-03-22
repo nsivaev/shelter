@@ -464,3 +464,25 @@ footer {
 .address a img {
     padding-right: 20px;
 }
+
+/*==== OUR PETS PAGE ====*/
+.header-pets-page {
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+
+.logo-pets-page h1 {
+    color: #545454;
+}
+
+.logo-pets-page p {
+    color: #292929;
+}
+
+.nav-item-pets-page a {
+    color: #545454;
+}
+
+.header-nav-pets-page {
+    padding-bottom: 30px;
+}
