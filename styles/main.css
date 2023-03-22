@@ -108,6 +108,11 @@ body {
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
+    transition: 0.3s;
+}
+
+.make-a-friend:hover {
+    background-color: #FDDCC4;
 }
 
 /* =====ABOUT===== */
@@ -184,10 +189,16 @@ body {
 .pets-item {
     background: #FAFAFA;
     border-radius: 9px;
+
+    transition: 0.3s;
+}
+
+.pets-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .pets-item__img img {
-    border-radius: 9px;
+    border-radius: 9px 9px 0 0;
 }
 
 .left-arrow, .right-arrow{
@@ -239,6 +250,13 @@ body {
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
+
+    transition: 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
 }
 
 .pets__button-get-to-know {
@@ -261,6 +279,12 @@ button.get-to-know{
     color: #292929;
 
     margin-bottom: 100px;
+
+    transition: 0.3s;
+}
+
+button.get-to-know:hover {
+    background-color: #FDDCC4;
 }
 
 /* =====HELP===== */
