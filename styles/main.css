@@ -12,8 +12,7 @@ body {
 
 /* ======HEADER====== */
 .header {
-    background: url("../assets/backgrounds/start-screen-background.jpg");
-    background-repeat: no-repeat;
+    background: url("../assets/backgrounds/start-screen-background.jpg") no-repeat;
     background-size: 100%;
     padding-top: 60px;
 }
@@ -183,7 +182,7 @@ body {
     background: #fff;
 }
 
-.left-arrow {
+.left-arrow, .right-arrow{
     cursor: pointer;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -232,23 +231,6 @@ body {
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
-}
-
-.right-arrow {
-    cursor: pointer;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 16px 16px;
-    width: 52px;
-    height: 52px;
-    border: 2px solid #f1cdb3;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 50%;
-    color: #292929;
-    background-color: transparent;
-    font-weight: bold;
 }
 
 .pets__button-get-to-know {
@@ -328,10 +310,6 @@ button.get-to-know{
     padding-bottom: 100px;
 }
 
-.donation-block img {
-
-}
-
 .donation-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,10 +350,6 @@ button.get-to-know{
     margin-bottom: 21px;
     color: #545454;
     text-decoration: none;
-}
-
-.card-pick img {
-
 }
 
 .donation-info-block h1 {
@@ -423,8 +397,7 @@ button.get-to-know{
 
 /* =====FOOTER===== */
 footer {
-    background: url("../assets/backgrounds/start-screen-background.jpg");
-    background-repeat: no-repeat;
+    background: url("../assets/backgrounds/start-screen-background.jpg") no-repeat;
     background-size: 100%;
 }
 
@@ -452,7 +425,7 @@ footer {
     color: #F1CDB3;
 }
 
-.contacts {
+.contacts, .address {
     padding-top: 17px;
     max-width: 279px;
     display: -webkit-box;
@@ -480,20 +453,6 @@ footer {
 }
 
 .address {
-    padding-top: 17px;
-    max-width: 279px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     gap: 34px;
 }
 
