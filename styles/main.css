@@ -179,7 +179,12 @@ body {
 }
 
 .pets-item {
-    background: #fff;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.pets-item__img img {
+    border-radius: 9px;
 }
 
 .left-arrow, .right-arrow{
@@ -466,6 +471,8 @@ footer {
 }
 
 /*==== OUR PETS PAGE ====*/
+
+/*=====header=====*/
 .header-pets-page {
     background: #FFFFFF;
     padding-top: 30px;
@@ -485,4 +492,29 @@ footer {
 
 .header-nav-pets-page {
     padding-bottom: 30px;
+}
+
+/*=====pets=====*/
+.pets-block-pets-page h3{
+    padding-bottom: 45px;
+}
+
+.pets-slider-pets-page {
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.pets__control-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.control-btn {
+    background: #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
 }
