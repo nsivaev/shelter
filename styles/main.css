@@ -1,5 +1,7 @@
 @import "reset.css";
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Georgia', sans-serif;
 }
@@ -12,8 +14,7 @@ body {
 
 /* ======HEADER====== */
 .header {
-    background: url("../assets/backgrounds/start-screen-background.jpg") no-repeat;
-    background-size: 100%;
+    background: url(../assets/backgrounds/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
     padding-top: 60px;
 }
 
@@ -58,9 +59,11 @@ body {
     font-family: 'Arial', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 160%;
     color: #CDCDCD;
     transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
 }
 
 .nav-list a:hover {
@@ -402,8 +405,7 @@ button.get-to-know{
 
 /* =====FOOTER===== */
 footer {
-    background: url("../assets/backgrounds/start-screen-background.jpg") no-repeat;
-    background-size: 100%;
+    background: url(../assets/backgrounds/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
 }
 
 .footer-block {
@@ -412,7 +414,7 @@ footer {
     padding-top: 38px;
 }
 
-.footer-block h1 {
+.footer-block h2 {
     font-family: 'Georgia', sans-serif;
     font-weight: 400;
     font-size: 35px;
@@ -488,6 +490,30 @@ footer {
 
 .nav-item-pets-page a {
     color: #545454;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.nav-item a:after {
+    display: block;
+    position: absolute;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #F1CDB3; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.nav-item a:hover:after, a:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.nav-list-pets-page a:hover {
+    color: #292929;
+    background-size: 100% 2px;
+
 }
 
 .header-nav-pets-page {
@@ -500,10 +526,10 @@ footer {
 }
 
 .pets-slider-pets-page {
-    gap: 40px;
+    gap: 30px 40px;
     flex-wrap: wrap;
 }
-
+/*buttons control*/
 .pets__control-buttons {
     display: flex;
     flex-direction: row;
@@ -512,9 +538,22 @@ footer {
     padding-bottom: 100px;
 }
 
+/*coloring buttons*/
 .control-btn {
-    background: #F1CDB3;
     border-radius: 100px;
     width: 52px;
     height: 52px;
+}
+
+.prev-max-btn, .prev-btn {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.num-slider-btn {
+    background: #F1CDB3;
+}
+
+.next-btn, .next-max-btn {
+    border: 2px solid #F1CDB3;
 }
