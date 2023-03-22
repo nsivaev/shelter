@@ -195,6 +195,7 @@ body {
 
 .pets-item:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
 .pets-item__img img {
@@ -216,6 +217,13 @@ body {
     color: #292929;
     background-color: transparent;
     font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
 }
 
 .pets-item {
@@ -384,7 +392,7 @@ button.get-to-know:hover {
     text-decoration: none;
 }
 
-.donation-info-block h1 {
+.donation-info-block h2 {
     font-family: 'Georgia', sans-serif;
     font-weight: 400;
     font-size: 35px;
@@ -577,7 +585,16 @@ footer {
 .num-slider-btn {
     background: #F1CDB3;
 }
+.num-slider-btn:hover {
+
+}
 
 .next-btn, .next-max-btn {
     border: 2px solid #F1CDB3;
+
+    transition: 0.3s;
+}
+.next-btn:hover, .next-max-btn:hover {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
 }
