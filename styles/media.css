@@ -73,6 +73,26 @@
         column-gap: 42px;
     }
 
+    /* pets page */
+    .pets-slider-pets-page .pets-item:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .pets-slider-pets-page {
+        justify-content: center;
+    }
+
+    .pets-block-pets-page h3 {
+        padding-bottom: 30px;
+    }
+
+    .pets-page-wrapper {
+        padding-bottom: 44px;
+    }
+
+    .pets__control-buttons {
+        padding-bottom: 78px;
+    }
     /*=====HELP=====*/
     .help__icons {
         gap: 55px 60px;
