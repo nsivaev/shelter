@@ -132,3 +132,246 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+     .container {
+         padding: 0 10px;
+         margin: 0 auto;
+     }
+
+    .logo {
+        padding-right: 43px;
+    }
+
+    .burger-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .header {
+        padding-top: 28px;
+    }
+
+    .header__nav {
+        padding-bottom: 65px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header-nav {
+        justify-content: center;
+    }
+
+    .start__content {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 105px;
+        padding: 0;
+    }
+
+    .start__content h2 {
+        font-size: 25px;
+        letter-spacing: 0.06em;
+    }
+
+    .start__content p {
+        font-size: 15px;
+        padding-bottom: 43px;
+    }
+
+    .about-content p {
+        padding-bottom: 20px;
+    }
+
+    .img-puppy {
+        width: 260px;
+        height: 272px;
+        margin-left: 40px;
+    }
+
+/*=====ABOUT=====*/
+    .about-block {
+        padding-top: 28px;
+    }
+
+    .about-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-content p {
+        text-align: justify;
+    }
+
+    .about-pets {
+        width: 260px;
+        height: 354px;
+        margin-top: 22px;
+    }
+
+    .about-block {
+        padding-bottom: 40px;
+    }
+
+/*=====PETS=====*/
+    .pets {
+        padding-top: 45px;
+    }
+
+    .pets-block {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .pets-slider .pets-item:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .pets-block h3 {
+        font-size: 25px;
+        padding-bottom: 41px;
+    }
+    .pets-slider-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 114px;
+    }
+
+/*    arrows*/
+    .right, .left {
+        position: absolute;
+        top: 75%;
+    }
+
+    .left {
+        left: 20%;
+    }
+
+
+    .right {
+        right: 20%;
+    }
+
+    button.get-to-know {
+        margin-bottom: 43px;
+    }
+
+    /*=====HELP=====*/
+    .help-block {
+        padding-top: 42px;
+    }
+
+    .help__header h3 {
+        font-size: 25px;
+        padding-bottom: 41px;
+    }
+
+    .help__icons {
+        justify-content: space-between;
+        gap: 55px 35px;
+        padding-bottom: 65px
+    }
+
+    .help-icons-block {
+        width: 130px;
+        height: 62px;
+    }
+
+    .help__icons .help-icons-block img {
+        height: 50px;
+    }
+
+    .help-icons-block p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    /*=====DONATION=====*/
+    .donation {
+        padding-bottom: 40px;
+    }
+
+    .donation-block {
+        padding-top: 44px;
+        padding-left: 14px;
+        padding-right: 14px;
+        gap: 19px;
+    }
+
+    .donation-info-block h2 {
+        font-size: 25px;
+        text-align: center;
+
+        padding-bottom: 23px;
+    }
+
+    .donation-info-block h6 {
+        font-size: 13px;
+
+        padding-bottom: 25px;
+    }
+
+    .donation-info-block p {
+        text-align: justify;
+    }
+
+    .card-pick p {
+        font-size: 15px;
+    }
+
+    .donation-dog-img {
+        margin-top: 0;
+    }
+
+    /*=====FOOTER=====*/
+    .footer__information {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contacts h2, .address h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    .address {
+        gap: 41px;
+    }
+
+    .address h2 {
+        margin: 0 auto;
+    }
+
+    .footer__information .address {
+        align-items: flex-start;
+    }
+
+    .contacts, .address {
+        align-items: center;
+        padding-top: 21px;
+    }
+
+    .footer-dog-img {
+        padding-top: 42px;
+    }
+
+    .footer-dog-img img {
+        width: 260px;
+        height: 269px;
+    }
+}

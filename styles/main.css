@@ -45,6 +45,9 @@ body {
 }
 
 /*nav*/
+.burger-menu {
+    display: none;
+}
 .nav {
     display: flex;
     align-items: center;
