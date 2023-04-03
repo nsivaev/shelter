@@ -263,6 +263,14 @@
         right: 20%;
     }
 
+    .pets-page-wrapper {
+        padding-bottom: 42px;
+    }
+
+    .pets__control-buttons {
+        gap: 10px;
+    }
+
     button.get-to-know {
         margin-bottom: 43px;
     }
@@ -278,7 +286,7 @@
     }
 
     .help__icons {
-        justify-content: space-between;
+        justify-content: space-around;
         gap: 55px 35px;
         padding-bottom: 65px
     }
@@ -309,6 +317,12 @@
         gap: 19px;
     }
 
+    .donation-info-block {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .donation-info-block h2 {
         font-size: 25px;
         text-align: center;
@@ -328,6 +342,10 @@
 
     .card-pick p {
         font-size: 15px;
+    }
+
+    .card-pick p {
+        padding-left: 7px;
     }
 
     .donation-dog-img {
@@ -374,4 +392,8 @@
         width: 260px;
         height: 269px;
     }
+
+    /*=====PETS PAGE 320=====*/
+
+
 }
