@@ -5,6 +5,7 @@ const links = block.querySelectorAll('a');
 
 toggleBtn.addEventListener('click', (event) => {
     event.stopPropagation(); // Остановить всплытие события, чтобы не сработало обработчик события на document
+    toggleBtn.classList.toggle('rotate'); // Поворачиваем кнопку на 90 градусов
     block.classList.toggle('show'); // Переключаем класс для показа/скрытия блока
 
     if (block.classList.contains('show')) {
@@ -15,8 +16,11 @@ toggleBtn.addEventListener('click', (event) => {
 });
 
 document.addEventListener('click', (event) => {
-    if (!block.contains(event.target)) {
-        block.classList.remove('show'); // Скрываем блок, если было нажато вне его
+    // Если клик был вне блока или кнопки
+    if (!event.target.closest('.block') && !event.target.closest('.toggle-btn')) {
+        block.classList.remove('show'); // Скрываем блок
+        toggleBtn.classList.remove('rotate'); // Возвращаем кнопку в исходное состояние
+        document.body.style.overflow = ''; // Разрешаем прокручивание страницы
     }
 });
 

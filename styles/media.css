@@ -400,6 +400,10 @@
         right: -10px;
         display: block;
     }
+
+    .rotate {
+        transform:rotate(90deg);
+    }
     /*logo re-padding*/
     .burger-menu-absolute .logo h1 {
         padding-top: 30px;
