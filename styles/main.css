@@ -607,3 +607,84 @@ footer {
     background: #FDDCC4;
     border: 2px solid #FDDCC4;
 }
+
+/*popup*/
+
+.pets-popup {
+    top: calc(50% - 260px);
+    left: calc(50% - 450px);
+    padding-right: 20px;
+    position: fixed;
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    width: 900px;
+    z-index: 2;
+}
+
+.close-popup {
+    position: absolute;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 41, 41, 0.6);
+    z-index: 1;
+}
+
+/*inner popup styles*/
+
+.popup-tittle {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.popup-subtitle {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.popup-description {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.popup-content ul {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.popup-img img {
+    max-width: 500px;
+    height: 500px;
+    border-radius: 9px;
+}
+
+.pets-popup .popup-content ul li::before {
+    content: "\2022";
+    color: #f1cdb3;
+    display: inline-block;
+    width: 0.7em;
+    margin-left: -0.1em;
+}
