@@ -1,3 +1,4 @@
+//burger
 const toggleBtn = document.getElementById('burger');
 const block = document.querySelector('.burger-menu-absolute');
 const links = block.querySelectorAll('a');

@@ -638,6 +638,23 @@ footer {
 
 /*inner popup styles*/
 
+.round-close {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    transform: rotateZ(45deg);
+    position: absolute;
+    left: 892px;
+    top: -50px;
+    transition: 0.3s;
+}
+
+.round-close:hover {
+    background: #FDDCC4;
+    border: #FDDCC4;
+}
+
 .popup-tittle {
     font-family: 'Georgia', sans-serif;
     font-style: normal;
