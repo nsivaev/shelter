@@ -133,7 +133,7 @@
 
     /*popup settings*/
     .pets-popup {
-        top: calc(50% - 260px);
+        top: calc(50% - 220px);
         left: calc(50% - 315px);
         padding-right: 9px;
         width: 630px;
@@ -524,7 +524,7 @@
 
     /*popup settings*/
     .pets-popup {
-        top: calc(50% - 260px);
+        top: calc(50% - 200px);
         left: calc(50% - 120px);
         padding-right: 9px;
         width: 240px;
