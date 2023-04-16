@@ -194,7 +194,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    html { overflow-x: hidden; }
 
      .container {
          padding: 0 10px;
@@ -438,15 +437,20 @@
     /*=====PETS PAGE 320=====*/
 
     /*=====BURGER MENU=====*/
+    body {
+        overflow-x: hidden;
+    }
     .header-nav {
         position: relative;
     }
+
     .burger-img {
         cursor: pointer;
         position: absolute;
         z-index: 2;
         right: 0;
     }
+
     .burger-img img {
         transition: all 0.3s;
     }
@@ -459,7 +463,6 @@
         right: -330px;
         padding-left: 10px;
         transition: right 0.3s ease-out;
-
         z-index: 1;
     }
 
