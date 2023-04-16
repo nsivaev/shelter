@@ -194,6 +194,8 @@
 }
 
 @media screen and (max-width: 768px) {
+    html { overflow-x: hidden; }
+
      .container {
          padding: 0 10px;
          margin: 0 auto;
@@ -445,6 +447,9 @@
         z-index: 2;
         right: 0;
     }
+    .burger-img img {
+        transition: all 0.3s;
+    }
 
     .burger-menu-absolute {
         width: 320px;
@@ -453,14 +458,13 @@
         top: -30px;
         right: -330px;
         padding-left: 10px;
-        transition: right 0.5s ease-out;
-        display: none;
+        transition: right 0.3s ease-out;
+
         z-index: 1;
     }
 
     .show {
         right: -10px;
-        display: block;
     }
 
     .rotate {
