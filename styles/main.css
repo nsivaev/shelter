@@ -210,7 +210,6 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 16px 16px;
     width: 52px;
     height: 52px;
     border: 2px solid #f1cdb3;
@@ -221,6 +220,7 @@ body {
     background-color: transparent;
     font-weight: bold;
 
+    padding: 22px 16px 16px;
     transition: 0.3s;
 }
 
@@ -297,6 +297,8 @@ button.get-to-know{
 button.get-to-know:hover {
     background-color: #FDDCC4;
 }
+
+
 
 /* =====HELP===== */
 .help-block {
