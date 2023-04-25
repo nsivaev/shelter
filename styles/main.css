@@ -707,3 +707,9 @@ footer {
     width: 0.7em;
     margin-left: -0.1em;
 }
+
+.x-vector {
+    rotate: 45deg;
+    padding-left: 4px;
+    padding-top: 2px;
+}

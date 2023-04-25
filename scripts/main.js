@@ -56,7 +56,7 @@ petCards.forEach(card => {
                 popup.classList.add('pets-popup');
                 popup.innerHTML = `
                   <div class="close-popup">
-                      <button class="round-close">+</button>
+                      <button class="round-close"><img class="x-vector" src="./assets/icons/x-vector.svg" alt="x-vector"></button>
                   </div>
                   <div class="popup-img"><img src="${petData.img}" alt=""></div>
                   <div class="popup-content">
