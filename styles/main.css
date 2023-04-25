@@ -589,6 +589,14 @@ footer {
 }
 
 .prev-max-btn, .prev-btn {
+    border: 2px solid #F1CDB3;
+    transition: 0.3s;
+}
+.next-btn, .next-max-btn {
+    border: 2px solid #F1CDB3;
+    transition: 0.3s;
+}
+.disable {
     border: 2px solid #CDCDCD;
     color: #CDCDCD;
 }
@@ -596,15 +604,7 @@ footer {
 .num-slider-btn {
     background: #F1CDB3;
 }
-.num-slider-btn:hover {
 
-}
-
-.next-btn, .next-max-btn {
-    border: 2px solid #F1CDB3;
-
-    transition: 0.3s;
-}
 .next-btn:hover, .next-max-btn:hover {
     background: #FDDCC4;
     border: 2px solid #FDDCC4;
