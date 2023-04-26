@@ -599,13 +599,14 @@ footer {
 .disable {
     border: 2px solid #CDCDCD;
     color: #CDCDCD;
+    cursor: default;
 }
 
 .num-slider-btn {
     background: #F1CDB3;
 }
 
-.next-btn:hover, .next-max-btn:hover {
+.next-btn:hover, .next-max-btn:hover, .prev-max-btn:hover, .prev-btn:hover {
     background: #FDDCC4;
     border: 2px solid #FDDCC4;
 }
